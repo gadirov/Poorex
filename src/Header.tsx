@@ -3,7 +3,7 @@ import React from 'react'
 export default function Header() {
   return (
     <Box  display="flex" w="100%">
-        <Box bg="#07847F" w="20%" p="60px">
+        <Box bg="#07847F" w="20%" p="50px 70px">
             <Image src='../assests/header/logo.png' w="214px" h="47px"  cursor="pointer"/>
         </Box>
         <Box w="80%" display="flex" flexDirection="column">
@@ -26,7 +26,7 @@ export default function Header() {
                     </UnorderedList>
                 </Box>
             </Box>
-            <HStack  justifyContent="space-between" p="30px 50px" >
+            <HStack  justifyContent="space-between" p="10px 50px" >
                 <UnorderedList listStyleType="none" display="flex" gap="30px" alignItems="center" >
                     <ListItem color="#8b9e9e" fontSize="20px" fontWeight="600px" mr="20px" _hover={{ color: "#1e3737", cursor:"pointer",transition:".5s" }}>Home</ListItem>
                     <ListItem color="#8b9e9e" fontSize="20px" fontWeight="600px" _hover={{ color: "#1e3737", cursor:"pointer", transition:".5s" }}>Pages</ListItem>
