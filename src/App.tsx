@@ -3,6 +3,8 @@ import { Box } from '@chakra-ui/react';
 import Header from './Header';
 import FirstSection from './FirstSection';
 import SecondSection from './SecondSection';
+import ThirdSection from './ThirdSection';
+import Footer from './Footer';
 
 
 
@@ -12,6 +14,8 @@ function App() {
     <Header />
     <FirstSection />
     <SecondSection />
+    <ThirdSection />
+    <Footer />
    </Box>
   );
 }
