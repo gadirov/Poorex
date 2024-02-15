@@ -26,7 +26,7 @@ const ThirdSection = () => {
 
   return (
     <HStack m="0 300px" p="150px 0" gap="100px" data-aos="fade-up">
-        <VStack w="55%">
+        <VStack w="55%"  data-aos="fade-right">
             <HStack alignItems="center" w="100%">
                 <Text color="#fe7f4c" fontSize="18px" fontWeight="700" m="0">ABOUT OUR POOREX</Text>
                 <HStack gap="0">
@@ -51,8 +51,6 @@ const ThirdSection = () => {
                         <Text color="#6e7a7a">Charity Navigator's Giving you support multiple</Text>
                     </VStack>
                 </HStack>
-
-
            </HStack>
            <Box w="100%" >
                 <HStack justifyContent="space-between" w="80%">
@@ -72,9 +70,7 @@ const ThirdSection = () => {
                 </HStack>
            </HStack>
         </VStack>
-
-
-        <Box  w="40%" position="relative">
+        <Box  w="40%" position="relative" data-aos="fade-left">
             <HStack w="100%" justifyContent="flex-end" >
                 <Image src="../assests/ThirdSection/right-1.png"/>
             </HStack>

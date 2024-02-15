@@ -13,7 +13,6 @@ const images = [
 ]
 
 const FirstSection = () => {
-
   useEffect(() => {
     AOS.init();
   }, []);

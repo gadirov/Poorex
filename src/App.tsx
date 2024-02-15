@@ -5,6 +5,7 @@ import FirstSection from './FirstSection';
 import SecondSection from './SecondSection';
 import ThirdSection from './ThirdSection';
 import Footer from './Footer';
+import FourthSection from './FourthSection';
 
 
 
@@ -15,6 +16,7 @@ function App() {
     <FirstSection />
     <SecondSection />
     <ThirdSection />
+    <FourthSection />
     <Footer />
    </Box>
   );
