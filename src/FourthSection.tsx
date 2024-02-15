@@ -28,8 +28,8 @@ return (
         <HStack w="100%" alignItems="center" justifyContent="space-between" p="0 300px"  data-aos="fade-up">
             <Text color="#1e3737" fontSize="48px" fontWeight="700" m="0">Our Popular Causes</Text>
             <HStack gap="20px">
-                <Box bg="#fff" cursor="pointer" borderRadius="50%" p="10px" onClick={() => setActiveEndIndex((prev) => prev -1 )} _hover={{backgroundColor: "#fe7f4c",transition: ".5s",}}><ArrowBackIcon boxSize={6} color="#07847f"/></Box>
-                <Box bg="#fff" cursor="pointer" borderRadius="50%" p="10px" onClick={() => setActiveEndIndex((prev) => prev +1 )} _hover={{backgroundColor: "#fe7f4c",transition: ".5s",}}><ArrowForwardIcon boxSize={6} color="#07847f"/></Box>
+                <Box bg="#fff" cursor="pointer" borderRadius="50%" p="10px"  _hover={{backgroundColor: "#fe7f4c",transition: ".5s",}}><ArrowBackIcon boxSize={6} color="#07847f"/></Box>
+                <Box bg="#fff" cursor="pointer" borderRadius="50%" p="10px"  _hover={{backgroundColor: "#fe7f4c",transition: ".5s",}}><ArrowForwardIcon boxSize={6} color="#07847f"/></Box>
             </HStack>
         </HStack>
         <SimpleGrid columns={3} row={1} spacingX='40px' spacingY='20px' w="100%" p="50px 300px"  data-aos="fade-up"> 
